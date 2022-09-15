@@ -1,0 +1,40 @@
+
+
+.img-fluid {
+	height: 20rem;
+	width: 20rem;
+}
+
+a:hover {
+	color: white !important;
+	border-color: skyblue;
+	background-color: skyblue;
+	border-radius: 2rem;
+}
+
+
+#bg-image{
+	background-image: url("./images/pic1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-color {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card-body {
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+.card-link:hover {
+	border-radius: 2rem;
+	background-color: rgba(0, 0, 255, 1.0);
+}
+
+
+
